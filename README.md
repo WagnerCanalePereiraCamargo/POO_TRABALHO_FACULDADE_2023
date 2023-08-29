@@ -21,5 +21,13 @@
 ### __Gerenciar Usuários__ <h3>
 #### Aqui o usuário tem a garantia que suas informações estarão seguras, visto que a função de gerenciar usuários é fundamental para a garantia e controle de acesso ao software em si, pois é nesta fase que são definidos tipos de usuários e suas senhas que são criptografadas, funcionalidade esta que é fundamental para garantir segurança e acesso de controle ao sistema<h4> 
 
-## __Visão geral __ <h2>
+## __Visão geral__ <h2>
 #### Eleita as funcionalidades do software, a próxima etapa para desenvolvimento do mesmo, parte da aplicação dos conceitos de engenharia de software, onde se aplicam modelos de desenvolvimento, mas para tal ainda ficaremos com as definições de metodos utilizados em POO ( Programação Orientada a Objeto). Sendo assim daremos início as classes que serão utilizadas neste software.  <h4>
+
+## __Definição de classes__ <h2>
+#### Tendo como base a POO, que tem intuito a abstração de objetos do mundo real para o computacional. Para o desenvolvimento do software em questão utilizaremos classes, com base que estas quando bem definidas, ajudam a organizar e estruturar as  informações e as funcionalidades de um sistema de maneira correta.<h4>
+
+### __1. Classe Despesa__ <h3>
+#### tal é responsável por representar a conta de forma individual, sendo que aqui são definidos tributos como descrição, data de vencimento, tipo de despesa, se a mesma encontra-se aberta ou paga e um identificador do tipo ID. Para tal deve se utilizar métodos de getters e setters para os atributos, além disto a mesma deve contar com encapsulamento pois toda a regra de negócio deve estar protegida, para que não se possa alterar dados de forma indiscreta. <h4>
+
+### __1. Classe Despesa__ <h3>
