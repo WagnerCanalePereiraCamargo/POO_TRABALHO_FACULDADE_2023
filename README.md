@@ -14,3 +14,9 @@
 
 ### __Listar Despesas__ <h3>
 #### Nesta função o usuário tera a opção de visualizar e gerenciar suas contas, de acordo a necessidade. Sendo que as opções. edição, e exclusão e retorno ao menu principal  estarão dispostas para melhor atender o cliente final, permitindo que os registros sempre estejam precisos e atualizados de forma organizada contando com a capacidade de filtrar as contas por critérios.  <h4>
+
+### __Gerenciar Tipos de Despesa__ <h3>
+#### Quando o usuário define e personaliza os tipos de contas em categorias conforme relevância, tal função organiza as despesas em camadas que tornam muito mais eficiente quando se deseja filtrar algo ou gerar relatórios de gastos. <h4>
+
+### __Gerenciar Usuários__ <h3>
+#### Aqui o usuário tem a garantia que suas informações estarão seguras, visto que a função de gerenciar usuários é fundamental para a garantia e controle de acesso ao software em si, pois é nesta fase que são definidos tipos de usuários e suas senhas que são criptografadas, funcionalidade esta que é fundamental para garantir segurança e acesso de controle ao sistema<h4> 
