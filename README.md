@@ -20,3 +20,6 @@
 
 ### __Gerenciar Usuários__ <h3>
 #### Aqui o usuário tem a garantia que suas informações estarão seguras, visto que a função de gerenciar usuários é fundamental para a garantia e controle de acesso ao software em si, pois é nesta fase que são definidos tipos de usuários e suas senhas que são criptografadas, funcionalidade esta que é fundamental para garantir segurança e acesso de controle ao sistema<h4> 
+
+## __Visão geral __ <h2>
+#### Eleita as funcionalidades do software, a próxima etapa para desenvolvimento do mesmo, parte da aplicação dos conceitos de engenharia de software, onde se aplicam modelos de desenvolvimento, mas para tal ainda ficaremos com as definições de metodos utilizados em POO ( Programação Orientada a Objeto). Sendo assim daremos início as classes que serão utilizadas neste software.  <h4>
