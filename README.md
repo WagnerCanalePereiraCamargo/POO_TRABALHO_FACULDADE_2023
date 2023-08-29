@@ -37,4 +37,13 @@
 #### como o próprio nome já diz, é responsável por representar o usuário final do sistema, sendo responsável por gerir informações pertinentes do usuário como nome, nome de usuário, informações de contato, cadastro de local para envio de senha, cadastro para reenvio de redefinição de senha, e, por fim, um identificador único (ID), além disso fara utilização  getters e setters para os atributos.<h4>
 
 ### __4. Classe Pagamento__ <h3>
-#### <h4>
+#### esta representa o pagamento de uma conta, no caso da despesa em si, permitindo ao usuário que verifique através de relatório se esta foi paga ou não de forma integral ou parcial, para tal conta com atributos como valor da despesa, tipo de pagamento ( a vista, parcelado) valor pago, data do pagamento e por fim o identificador ID, além disso os métodos serão composto por getters e setters.<h4>
+
+### __5. Classe Tipo de Despesa__ <h3>
+#### tal classe serra responsável, por categorizar a despesa em tipos ou subtipos a fim de se ter um melhor controle, sendo que tal funcionalidade e essencial  para uma melhor otimização do sistema garantindo um relatório mais especifico de acordo com a categoria desejada, para tal se deve utilizar os métodos  getters e setters para os atributos de nome, descrição<h4>.
+
+### __Herança__ <h3>
+#### Tendo as classes já definidas, podemos então pensar no quesito de herança que é utilizado na POO, para tal após análise das classes já escolhidas, podemos elencar a seguinte classe para ser aplicada técnica de herança. Classe Tipo de Despesa: utilizando os conceitos de POO podemos verificar que esta classe se encaixaria perfeitamente para utilização de herança visto que tipo de despesa é algo bem genérico, e pode se categorizado em subcategorias mais concretas. Para tal se deve criar uma classe abstrata chamada tipo de despesa, que engloba vários aspectos comuns que podem ser encapsulados, a todas subcategorias, desta forma podem ser definidas subcategorias que iram herdar da classe mãe. <h4>
+
+### __Interfaces e Polimorfismo__ <h3>
+####  Seguindo os conceitos de POO, podemos dizer que o polimorfismo está relacionado a questão de que quando temos muitas subcategorias que vem da classe pai, vão se portar como  mesma, e para tal a implementação neste software a princípio ficaria através da implementação das interfaces, pois assim poderemos fazer com que vários objetos se comportem como um só. Quando aplicamos a interface e polimorfismo crimos uma estrutura que permite tratar objetos diferentes como se fossem do mesmo tipo, para tal implementaremos a interface na classe tipo de despesa, pois as classes herdeiras que serão concretas como transporte, diversão, mercado entre outras, implementaria uma interface chamada de Despesa por categoria, onde um método responsável por calcular o limite de gasto possa ser implementado pela classe pai. <h4>
