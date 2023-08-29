@@ -30,4 +30,11 @@
 ### __1. Classe Despesa__ <h3>
 #### tal é responsável por representar a conta de forma individual, sendo que aqui são definidos tributos como descrição, data de vencimento, tipo de despesa, se a mesma encontra-se aberta ou paga e um identificador do tipo ID. Para tal deve se utilizar métodos de getters e setters para os atributos, além disto a mesma deve contar com encapsulamento pois toda a regra de negócio deve estar protegida, para que não se possa alterar dados de forma indiscreta. <h4>
 
-### __1. Classe Despesa__ <h3>
+### __2. Classe Controle__ <h3>
+#### esta deve atuar de maneira principal pelo sistema, pois contem funções e métodos específicos, como adicionar despesa, gerenciar tipos de despesas, gerenciar usuários, registrar pagamentos. Para tal vai contar com métodos como, listar despesas em geral, listar despesas pagas, listar despesas em aberto, gerenciar usuários, gerenciar despesas. Assim como tera os seguintes atributos, lista de pagamentos, lista de tipos de despesas, lista de usuários, lista geral de despesas.<h4>
+
+### __3. Classe Usuário__ <h3>
+#### como o próprio nome já diz, é responsável por representar o usuário final do sistema, sendo responsável por gerir informações pertinentes do usuário como nome, nome de usuário, informações de contato, cadastro de local para envio de senha, cadastro para reenvio de redefinição de senha, e, por fim, um identificador único (ID), além disso fara utilização  getters e setters para os atributos.<h4>
+
+### __4. Classe Pagamento__ <h3>
+#### <h4>
